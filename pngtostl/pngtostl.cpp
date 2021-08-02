@@ -79,13 +79,6 @@ tri emitTriangle(float x1, float y1, float z1,
     tri.m_p3.m_z = z3;
 
     return tri;
-    //printf("facet normal 0 0 0\n");
-    //printf("\touter loop\n");
-    //printf("\t\tvertex %f %f %f\n", x1, y1, z1);
-    //printf("\t\tvertex %f %f %f\n", x2, y2, z2);
-    //printf("\t\tvertex %f %f %f\n", x3, y3, z3);
-    //printf("\tendloop\n");
-    //printf("endfacet\n");
 }
 
 /* Transforms the box originating at x,y and with x-y dimension xsize,ysize
